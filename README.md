@@ -10,6 +10,7 @@ tags: kubernetes, k8s, install
 - **Master node**
     - CPU : 2 core 
     - RAM : 4 G
+
 :::warning 注意 
 :zap: 只配1 core的話到時候Master節點會無法初始化~
 :::
@@ -56,8 +57,8 @@ vim /etc/hosts
 ```
 例如 : 
 ```=
-192.168.17.131	kmaster
-192.168.17.132	knode
+192.168.67.128	kmaster
+192.168.67.129	knode
 ```
 PS : 同一個叢集的節點都需加入喔~
 
