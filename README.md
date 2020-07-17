@@ -451,7 +451,7 @@ kubectl explain Pod.spec.volumes.hostPath
 好用，一定要裝
 :::
 
-kubectl自動補齊功能可參考[這裡] (https://kubernetes.io/docs/reference/kubectl/cheatsheet/)。指令如下
+kubectl自動補齊功能可參考[這裡](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)。指令如下
 ```bash=
 $ source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
 $ echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
